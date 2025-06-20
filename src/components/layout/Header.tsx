@@ -27,6 +27,7 @@ const Header: React.FC = () => {
         {label: "Product", path: "#product"},
         {label: "How to use", path: "#how-to-use"},
         {label: "Pricing", path: "#pricing"},
+        {label: "Documentation", path: "#"},
     ];
 
     const handleNavigation = (path: string) => {
@@ -56,7 +57,7 @@ const Header: React.FC = () => {
                             <div className="relative w-8 h-8 md:w-10 md:h-10">
                                 <Image
                                     src="/icon.png"
-                                    alt="CypherAI Logo"
+                                    alt="VeloxiAI Logo"
                                     fill
                                     sizes="(max-width: 768px) 32px, (max-width: 1200px) 40px, 48px"
                                     style={{objectFit: "contain"}}
@@ -64,7 +65,7 @@ const Header: React.FC = () => {
                                 />
                             </div>
                             <span className="text-white font-semibold text-xl md:text-2xl">
-                                CypherAI
+                                VeloxiAI
                             </span>
                         </button>
 

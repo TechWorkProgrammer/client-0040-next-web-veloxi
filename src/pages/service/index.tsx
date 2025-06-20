@@ -56,7 +56,7 @@ const Feature: React.FC = () => {
                             with{" "}
                             <span
                                 className="text-transparent bg-clip-text bg-gradient-to-r from-accent-600 to-accent-400">
-                                CypherAI
+                                VeloxiAI
                             </span>
                         </h1>
                     </div>
