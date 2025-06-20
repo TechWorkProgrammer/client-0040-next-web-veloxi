@@ -32,7 +32,7 @@ const MeshCard: React.FC<MeshCardProps> = ({mesh}) => {
     const getVersionTag = (aiVersion: string) => {
         if (aiVersion.toLowerCase() === "meshy") return "v1";
         if (aiVersion.toLowerCase() === "master") return "v2";
-        if (aiVersion.toLowerCase() === "rodin") return "v2";
+        if (aiVersion.toLowerCase() === "rodin") return "v3";
         return "";
     };
 
