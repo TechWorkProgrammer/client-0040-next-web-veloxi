@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                             <RiTelegram2Fill size={20}/>
                         </a>
                         <a
-                            href="https://x.com/"
+                            href="https://x.com/veloxiai"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-accent transition-colors"

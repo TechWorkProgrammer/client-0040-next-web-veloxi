@@ -133,7 +133,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                             <RiTelegram2Fill size={24}/>
                         </a>
                         <a
-                            href="https://x.com/"
+                            href="https://x.com/veloxiai"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white hover:text-veloxiai-green transition border border-white/10 rounded-xl p-3"
