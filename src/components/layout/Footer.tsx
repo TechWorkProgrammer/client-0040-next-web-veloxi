@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
 
                     <div className="flex gap-4">
                         <a
-                            href="https://t.me/"
+                            href="https://t.me/VeloxiAI"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-accent transition-colors"

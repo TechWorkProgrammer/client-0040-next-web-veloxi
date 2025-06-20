@@ -125,7 +125,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <div className="border-t border-white/10">
                     <div className="flex space-x-4 w-full justify-between px-4 md:px-6 py-6">
                         <a
-                            href="https://t.me/veloxiai_bot"
+                            href="https://t.me/VeloxiAI"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white hover:text-veloxiai-green transition border border-white/10 rounded-xl p-3"

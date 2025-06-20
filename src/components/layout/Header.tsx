@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         {label: "Product", path: "#product"},
         {label: "How to use", path: "#how-to-use"},
         {label: "Pricing", path: "#pricing"},
-        {label: "Documentation", path: "#"},
+        {label: "Documentation", path: "https://docs.veloxiai.app"},
     ];
 
     const handleNavigation = (path: string) => {
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                                             href={item.path}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-white font-semibold text-sm hover:text-accent-500 transition-colors"
+                                            className="text-white font-semibold text-sm md:text-md lg:text-lg hover:text-accent-500 transition-colors"
                                         >
                                             {item.label}
                                         </a>

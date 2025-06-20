@@ -192,7 +192,7 @@ const LoggedInComponent: React.FC<LoggedInComponentProps> = ({
 
                 <div
                     className="w-full border border-secondary-200 rounded-md px-4 py-2 flex items-center justify-between my-6">
-                    <p className="text-white/70 text-base">$veloxi coins</p>
+                    <p className="text-white/70 text-base">$VEL</p>
                     <p className="text-white text-base font-semibold">{user?.point || 0}</p>
                 </div>
 

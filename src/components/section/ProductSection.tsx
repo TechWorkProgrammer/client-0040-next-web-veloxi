@@ -80,7 +80,7 @@ const ProductionSection = () => {
                             <Button
                                 label="Open Telegram"
                                 onClick={() => window.open("https://t.me/veloxiai_bot", "_blank")}
-                                color="secondary"
+                                color="primary"
                                 fullWidth={false}
                             />
                         </div>
@@ -102,7 +102,7 @@ const ProductionSection = () => {
                             <Button
                                 label="Your Assets"
                                 onClick={() => router.push("/assets")}
-                                color="primary"
+                                color="secondary"
                                 fullWidth={false}
                             />
                         </div>
